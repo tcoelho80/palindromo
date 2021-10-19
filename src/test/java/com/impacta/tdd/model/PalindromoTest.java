@@ -17,6 +17,7 @@ class PalindromoTest {
     // “Top spot!”
     // “02/02/2020”
 
+    //Testa se a entrada faz disinção de maisculo e minusculo
     @Test
     public void testPalindromoToUpperCase()
     {  
@@ -24,6 +25,7 @@ class PalindromoTest {
         assertTrue(palindromo.validaPalindromo("Able was I, ere I saw Elba"));
     }
 
+    //Testa se a entrada faz de caracteres especiais
     @Test
     public void testPalindromoComCaracteresEspeciais()
     {
